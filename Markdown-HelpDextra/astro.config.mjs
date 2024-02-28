@@ -17,6 +17,10 @@ export default defineConfig({
             { label: "¿Qué es JavaScript?", link: "/guides/example/" },
             { label: "La consola del navegador", link: "/guides/example2/" },
             { label: "Tipos de datos", link: "/guides/example3/" },
+            {
+              label: "Los operadores de comparación",
+              link: "/guides/example4/",
+            },
           ],
         },
         {
