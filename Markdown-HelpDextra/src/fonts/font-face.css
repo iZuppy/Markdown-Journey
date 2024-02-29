@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Custom Font";
+  /* Use a relative path to the local font file in `url()`. */
+  src: url("")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

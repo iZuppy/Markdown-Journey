@@ -5,7 +5,8 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Aprendiendo JavaScript",
+      customCss: [],
       social: {
         github: "https://github.com/withastro/starlight",
       },
@@ -21,6 +22,11 @@ export default defineConfig({
               label: "Los operadores de comparación",
               link: "/guides/example4/",
             },
+            {
+              label: "Operadores lógicos en JavaScript",
+              link: "/guides/example5/",
+            },
+            { label: "Variables", link: "/guides/example6/" },
           ],
         },
         {
